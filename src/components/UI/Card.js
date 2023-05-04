@@ -1,6 +1,8 @@
 import "./Card.css";
 
-function Card(props){
+// We can write a function also as a arrow function.
+
+const  Card = (props) =>{
     const classes = 'card ' + props.className;
 
     return <div className={classes}>{props.children}</div>;
